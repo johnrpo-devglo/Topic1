@@ -17,6 +17,7 @@ public class CursoJavaSE implements Observable {
     @Override
     public void detach(Observer se) {
         observers.remove(se);
+        System.out.println("Acabas de darte de baja");
 
     }
 

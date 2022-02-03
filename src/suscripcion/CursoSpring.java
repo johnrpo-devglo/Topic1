@@ -17,6 +17,7 @@ public class CursoSpring implements Observable{
     @Override
     public void detach(Observer sp) {
         observers.remove(sp);
+        System.out.println("Acabas de darte de baja");
 
     }
 

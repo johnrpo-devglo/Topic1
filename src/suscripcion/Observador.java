@@ -22,6 +22,8 @@ public class Observador {
         CursoSpring bf = new CursoSpring();
         bf.attach(user3);
 
+        bf.detach(user3);
+
     }
 
 }

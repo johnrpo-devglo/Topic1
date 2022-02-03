@@ -16,7 +16,8 @@ public class CursoJavaEE implements Observable{
     @Override
     public void detach(Observer ee) {
         observers.remove(ee);
-        notifyUpdate();
+        System.out.println("Acabas de darte de baja");
+
 
     }
 
