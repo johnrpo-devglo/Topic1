@@ -10,14 +10,14 @@ public class TestHotdog {
 
         System.out.println("\n");
 
-        System.out.println("***perro sencillo***");
+        System.out.println("***Perro sencillo***");
         hotdog.simple();
 
         System.out.println("\n");
 
         System.out.println("***Perro con Adicion***");
+        hotdogWithIngredients.cheese();
         hotdogWithIngredients.combo();
         hotdogWithIngredients.sauces();
-        hotdogWithIngredients.cheese();
     }
 }
